@@ -33,7 +33,7 @@ def append_to_json(input_file, json_file):
         new_data.append(item)
     combined_data = existing_data + new_data
     with open(json_file, 'w', encoding='utf-8') as file:
-        json.dump(combined_data, file, indent=4)
+        json.dump(combined_data, file)
 
 ```
 ### After running code
@@ -62,7 +62,7 @@ def append_to_json(input_file, json_file):
         new_data.append(item)
     combined_data = existing_data + new_data
     with open(json_file, 'w', encoding='utf-8') as file:
-        json.dump(combined_data, file, indent=4)
+        json.dump(combined_data, file)
 
 ```
 
