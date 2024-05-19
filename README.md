@@ -1,6 +1,6 @@
 # AutoCommenter
 
-AutoCommenter is a Python library for dealing with automatically generating docstrings in Python files.
+AutoCommenter is a Python repo for dealing with automatically generating docstrings in Python files.
 
 ## Installation
 
